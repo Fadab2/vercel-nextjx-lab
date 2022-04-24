@@ -1,9 +1,9 @@
-import MealItem from "./MealItem";
-const MealList = () => {
+import RandomItem from "./randomitem";
+const RandomList = () => {
   return (
     <div className="flex flex-wrap">
-      <MealItem />
+      <RandomItem />
     </div>
   );
 };
-export default MealList;
+export default RandomList;
